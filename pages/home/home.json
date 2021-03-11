@@ -1,0 +1,11 @@
+{
+  "usingComponents": {
+    "v-swiper":"/components/v-swiper/v-swiper",
+    "v-tab-control":"/components/v-tab-control/v-tab-control",
+    "v-goods":"/components/v-goods/v-goods",
+    "v-back-top":"/components/v-back-top/v-back-top",
+    "v-recommend":"./childCpns/v-recommend/v-recommend",
+    "v-popular":"./childCpns/v-popular/v-popular"
+  },
+  "navigationBarTitleText":"v-mall 2.0小程序版"
+}

@@ -1,0 +1,15 @@
+/* pages/detail/detail.wxss */
+.detail {
+  height: calc(100% - 120rpx);
+}
+
+.d-swiper swiper {
+  height: 800rpx;
+}
+.v-bottom-bar{
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #fff;
+}

@@ -1,0 +1,18 @@
+<!--pages/home/home.wxml-->
+<!-- 轮播图 -->
+<v-swiper list="{{banners}}"/>
+<!-- 推荐 -->
+<v-recommend list="{{recommends}}"
+              bind:imageLoad="handleImageLoad"></v-recommend>
+<!-- 本周流行 -->
+<v-popular></v-popular>
+<!-- tab-control -->
+<v-tab-control titles="{{titles}}"
+bind:tabClick="handleTabControlClick"
+class="{{isTabFixed ? 'fixed': ''}}"
+id="tab-control"></v-tab-control>
+<v-tab-control titles="{{titles}}" wx:if="{{isTabFixed}}"></v-tab-control>
+<!-- 展示商品数据 -->
+<v-goods goods="{{goods[currentType].list}}"></v-goods>
+<!-- 回到顶部 -->
+<v-back-top wx:if="{{showBackTop}}"></v-back-top>
